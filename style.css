@@ -2,6 +2,56 @@
   font-family: helvetica;
 }
 
-img {
+.navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: solid 1px grey;
+  background-color: white;
+  height: 90px;
+}
+
+#logo {
   max-width: 175px;
+}
+
+button {
+  border-radius: 2px;
+  background-color: rgba(56, 205, 255, 0.5);
+  color: white;
+  font-weight: bold;
+  font-size: 15 px;
+  border: 1px solid;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-flex;
+  margin: 20px;
+  padding: 10px;
+  color: grey;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  align-content: space-around;
+  border: solid 1px blue;
+  background-image: url(img/landscape.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+
+h1 {
+  color: black;
+  font-weight: inherit;
+  margin: 0 auto;
+  border: 1px solid;
 }
