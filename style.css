@@ -1,5 +1,6 @@
 * {
   font-family: helvetica;
+  color: grey;
   margin: 0;
   padding: 0;
 }
@@ -12,6 +13,7 @@
 
 .nav-container {
   display: flex;
+  justify-content: space-between;
   align-content: center;
   width: 100%;
   height: 90px;
@@ -33,4 +35,21 @@
 
 .navigation-links {
   display: inline-flex;
+  margin: 10px;
+  border: 1px solid blue;
+}
+
+.signup-login-container {
+  display: flex;
+  align-self: center;
+  height: 50px;
+  border: 1px solid red;
+}
+
+.signup-button {
+  align-self: center;
+}
+
+.login {
+
 }
