@@ -1,13 +1,18 @@
 .title-container {
+  left: 25px;
   margin: 0 auto;
   position: relative;
   top: 75px;
-  width: 625px;
+  width: 700px;
 }
 
 .title {
-  font-size: 2.5rem;
+  color: #263648;
+  font-family: AktivGrotesk,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 50px;
   font-weight: 100;
+  line-height: 70px;
+  letter-spacing: -1.4px;
   margin: 0;
   padding: 0;
 }
@@ -24,11 +29,12 @@
 .email-input {
   border: 1px solid grey;
   border-radius: 5px;
-  height: 2.25rem;
+  bottom: 6px;
+  font-size: 1rem;
+  height: 40px;
   margin: 0 10px 10px 10px;
   padding-left: 5px;
   position: relative;
-  bottom: 6px;
 }
 
 .email-btn {
@@ -37,12 +43,11 @@
   border-style: solid;
   border-width: 1px;
   border-color: #0492bd;
+  bottom: 9px;
   color: white;
   font-size: 1.05rem;
   font-weight: 600;
-  height: 55%;
-  padding: .75rem .5rem;
+  height: 50px;
   position: relative;
-  bottom: 9px;
   width: 125px;
 }
