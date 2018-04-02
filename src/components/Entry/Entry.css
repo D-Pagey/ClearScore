@@ -1,3 +1,28 @@
 .btn-container {
-  border: 1px solid pink;
+  align-items: center;
+  display: flex;
+  height: inherit;
+  justify-content: space-between;
+  position: relative;
+  left: 50px;
+  width: 160px;
+}
+
+.sign-up {
+  background-color: lightblue;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightblue;
+  color: white;
+  font-size: 1.05rem;
+  font-weight: 600;
+  height: 55%;
+  padding: .5rem;
+  width: 100px;
+}
+
+.login {
+  color: black;
+  text-decoration: none;
 }
