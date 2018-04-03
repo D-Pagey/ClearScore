@@ -1,5 +1,15 @@
 .navbar {
-  width: 500px;
+  width: 385px;
+}
+@media screen and (min-width: 1400px) {
+  .navbar {
+    width: 400px;
+    } 
+}
+@media screen and (min-width: 1700px) {
+  .navbar {
+    width: 500px;
+    } 
 }
 
 .navbar-list {

@@ -8,6 +8,11 @@
 
 This is a project to practice rebuilding a live website in React.
 
+**Improvements:**
+- I had to use free fonts as didn't have access to the actual fonts used.
+- I'd like to work out how to zoom the background image further as per the 
+homepage.
+
 **Getting Started:**
  1. Run: `npm install`
  2. Run: `npm start` _(in a new terminal)_

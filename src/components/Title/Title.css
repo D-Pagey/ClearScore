@@ -23,18 +23,19 @@
 }
 
 .input-container {
+  bottom: 13px;
   display: inline-flex;
+  position: relative;
 }
 
 .email-input {
   border: 1px solid grey;
   border-radius: 5px;
-  bottom: 6px;
   font-size: 1rem;
   height: 40px;
   margin: 0 10px 10px 10px;
   padding-left: 5px;
-  position: relative;
+  width: 12rem;
 }
 
 .email-btn {
@@ -43,7 +44,7 @@
   border-style: solid;
   border-width: 1px;
   border-color: #0492bd;
-  bottom: 9px;
+  bottom: 4px;
   color: white;
   font-size: 1.05rem;
   font-weight: 600;
